@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IllusionRenderEngine", "IllusionRenderEngine\IllusionRenderEngine.vcxproj", "{05F17941-A266-4137-9520-3B6ED1D3B40A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AE3E5DA3-4418-46C4-AA09-9FB5EBB05290} = {AE3E5DA3-4418-46C4-AA09-9FB5EBB05290}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "D3D9Plugin", "D3D9Plugin\D3D9Plugin.vcxproj", "{AE3E5DA3-4418-46C4-AA09-9FB5EBB05290}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Illusion", "Illusion\Illusion.vcxproj", "{4F504746-F1E5-4797-8EFF-1DDF4A27CF36}"
+	ProjectSection(ProjectDependencies) = postProject
+		{05F17941-A266-4137-9520-3B6ED1D3B40A} = {05F17941-A266-4137-9520-3B6ED1D3B40A}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WorldEditor", "WorldEditor\WorldEditor.vcxproj", "{334AE85A-DCA6-40FC-A31F-D042D192D3B0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{05F17941-A266-4137-9520-3B6ED1D3B40A} = {05F17941-A266-4137-9520-3B6ED1D3B40A}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EffectEditor", "EffectEditor\EffectEditor.vcxproj", "{31743AAC-B031-4881-AB1D-8B76EECD2751}"
+	ProjectSection(ProjectDependencies) = postProject
+		{05F17941-A266-4137-9520-3B6ED1D3B40A} = {05F17941-A266-4137-9520-3B6ED1D3B40A}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ModelViewer", "ModelViewer\ModelViewer.vcxproj", "{2A14348D-EA57-40E7-945C-84EABF35BF22}"
+	ProjectSection(ProjectDependencies) = postProject
+		{05F17941-A266-4137-9520-3B6ED1D3B40A} = {05F17941-A266-4137-9520-3B6ED1D3B40A}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Game", "Game", "{15D1CAE5-8E3C-4BD4-B0D3-3A3B70DB6428}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{7E184CD1-742A-477D-99B9-E67CB6504EAD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugin", "Plugin", "{96038969-EFD0-41CD-8FD3-52258F0879B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Editor", "Editor", "{9CF7720D-7AB4-426A-8862-357FCCFA4C08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05F17941-A266-4137-9520-3B6ED1D3B40A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{05F17941-A266-4137-9520-3B6ED1D3B40A}.Debug|Win32.Build.0 = Debug|Win32
+		{05F17941-A266-4137-9520-3B6ED1D3B40A}.Release|Win32.ActiveCfg = Release|Win32
+		{05F17941-A266-4137-9520-3B6ED1D3B40A}.Release|Win32.Build.0 = Release|Win32
+		{AE3E5DA3-4418-46C4-AA09-9FB5EBB05290}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AE3E5DA3-4418-46C4-AA09-9FB5EBB05290}.Debug|Win32.Build.0 = Debug|Win32
+		{AE3E5DA3-4418-46C4-AA09-9FB5EBB05290}.Release|Win32.ActiveCfg = Release|Win32
+		{AE3E5DA3-4418-46C4-AA09-9FB5EBB05290}.Release|Win32.Build.0 = Release|Win32
+		{4F504746-F1E5-4797-8EFF-1DDF4A27CF36}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4F504746-F1E5-4797-8EFF-1DDF4A27CF36}.Debug|Win32.Build.0 = Debug|Win32
+		{4F504746-F1E5-4797-8EFF-1DDF4A27CF36}.Release|Win32.ActiveCfg = Release|Win32
+		{4F504746-F1E5-4797-8EFF-1DDF4A27CF36}.Release|Win32.Build.0 = Release|Win32
+		{334AE85A-DCA6-40FC-A31F-D042D192D3B0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{334AE85A-DCA6-40FC-A31F-D042D192D3B0}.Debug|Win32.Build.0 = Debug|Win32
+		{334AE85A-DCA6-40FC-A31F-D042D192D3B0}.Release|Win32.ActiveCfg = Release|Win32
+		{334AE85A-DCA6-40FC-A31F-D042D192D3B0}.Release|Win32.Build.0 = Release|Win32
+		{31743AAC-B031-4881-AB1D-8B76EECD2751}.Debug|Win32.ActiveCfg = Debug|Win32
+		{31743AAC-B031-4881-AB1D-8B76EECD2751}.Debug|Win32.Build.0 = Debug|Win32
+		{31743AAC-B031-4881-AB1D-8B76EECD2751}.Release|Win32.ActiveCfg = Release|Win32
+		{31743AAC-B031-4881-AB1D-8B76EECD2751}.Release|Win32.Build.0 = Release|Win32
+		{2A14348D-EA57-40E7-945C-84EABF35BF22}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2A14348D-EA57-40E7-945C-84EABF35BF22}.Debug|Win32.Build.0 = Debug|Win32
+		{2A14348D-EA57-40E7-945C-84EABF35BF22}.Release|Win32.ActiveCfg = Release|Win32
+		{2A14348D-EA57-40E7-945C-84EABF35BF22}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4F504746-F1E5-4797-8EFF-1DDF4A27CF36} = {15D1CAE5-8E3C-4BD4-B0D3-3A3B70DB6428}
+		{05F17941-A266-4137-9520-3B6ED1D3B40A} = {7E184CD1-742A-477D-99B9-E67CB6504EAD}
+		{AE3E5DA3-4418-46C4-AA09-9FB5EBB05290} = {96038969-EFD0-41CD-8FD3-52258F0879B2}
+		{31743AAC-B031-4881-AB1D-8B76EECD2751} = {9CF7720D-7AB4-426A-8862-357FCCFA4C08}
+		{334AE85A-DCA6-40FC-A31F-D042D192D3B0} = {9CF7720D-7AB4-426A-8862-357FCCFA4C08}
+		{2A14348D-EA57-40E7-945C-84EABF35BF22} = {9CF7720D-7AB4-426A-8862-357FCCFA4C08}
+	EndGlobalSection
+EndGlobal
